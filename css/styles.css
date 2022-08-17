@@ -94,7 +94,8 @@ button {
     -webkit-mask:
         linear-gradient(#fff 0 0) padding-box,
         linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
+    -webkit-mask-composite: source-out;
+    mask-composite: exclude;
     transform: scaleY(-1);
     z-index: 0;
 }
